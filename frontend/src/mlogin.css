@@ -1,0 +1,33 @@
+.loginForm{
+    padding: 30px 0px;
+    align-items: center;
+    justify-content: center;
+}
+.MuiCard-root{
+    padding: 20px;
+    background-image: url(../public/loginback.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: aqua;
+    font-weight: bold;
+    text-decoration: dashed;
+}
+.MuiCardHeader-root{
+    background-image: linear-gradient(to right,rgba(0, 0, 255, 0.2),rgba(0, 0, 0, 0.778),rgba(0, 0, 255, 0.273));
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.MuiTextField-root{
+    width: 70%;
+    background-color: rgba(255, 255, 255, 0.231);
+}
+.MuiTextField-root [type=submit]{
+    background-color: rgb(0, 121, 255);
+    color: white;   
+}
+.MuiTextField-root [type=submit]:hover{
+    background-color: rgb(0, 191, 255); 
+    cursor: pointer;
+    color: white;
+}

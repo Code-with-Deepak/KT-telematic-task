@@ -1,0 +1,28 @@
+.btn-area{
+    margin-left: auto;
+    padding: 10px;
+}
+Button{
+    padding: 10px;
+}
+.heading{
+    justify-content: space-between;
+    display: inline;
+}
+.dialogTitle{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color:white;
+}
+.btns{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid grey;
+    width: 73%;
+    display: flex;
+    justify-content: space-around;
+}
+.desc{
+    white-space: pre-wrap;
+}
